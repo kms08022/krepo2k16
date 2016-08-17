@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+//takes in a number and a string and outputs it that many times
+public class StringScanner 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

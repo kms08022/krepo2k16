@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class TestUserArrayInput 
+{
+	
+	
+	public static void Arr(String message)
+	{
+		
+		int[] Arr = new int[10];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your ints");
+		
+		for(int i = 0; i < Arr.length; i++)
+		{
+			Arr[i] = sc.nextInt();
+		}
+		
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		
+		String firstname= Arr("this is it");
+		System.out.println(firstname);
+		
+		Arr("this is it");
+		
+		
+	}
+		
+		
+}	
